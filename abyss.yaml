@@ -1,0 +1,15 @@
+name: ${dockerImageName}
+build:
+  beta:
+    - python3 env_writer.py  public/abcdefg.html
+    - npm i
+    - npm run build
+    - docker build -t ${dockerImageName} .
+  prod:
+    - python3 env_writer.py  public/abcdefg.html
+    - npm i
+    - npm run build
+    - docker build -t ${dockerImageName} .
+release: mars
+email:
+  - ${email}

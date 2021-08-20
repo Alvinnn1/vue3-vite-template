@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url('../font/Montserrat-Medium.woff2');
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+body {
+  font-family: Montserrat, "PingFang SC",'helvetica neue','hiragino sans gb',arial,'microsoft yahei ui','microsoft yahei',simsun,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+article,aside,blockquote,button,dd,div,dl,dt,fieldset,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hr,input,legend,li,menu,nav,ol,p,pre,section,select,td,textarea,th,ul {
+  margin: 0;
+  padding: 0
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 400;
+  font-size: 100%
+}
+ol,ul {
+  list-style: none
+}
+
+button,input,select,textarea {
+  font-family: inherit;
+  font-size: 100%
+}
+
+button:focus,input:focus,select:focus,textarea:focus {
+  outline: none
+}
+
+button,html input[type=button],input[type=reset],input[type=submit] {
+  -webkit-appearance: button
+}
+
+textarea {
+  overflow: hidden;
+  vertical-align: top
+}
+
+input,textarea {
+  -webkit-appearance: none
+}
+
+input::-ms-clear,input::-ms-reveal,textarea::-ms-clear,textarea::-ms-reveal {
+  display: none
+}
+
+input[type=search] {
+  -webkit-appearance: none
+}
+
+input[type=search]::-ms-clear,input[type=search]::-ms-reveal {
+  display: none
+}
+
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration,input[type=search]::-webkit-search-results-button,input[type=search]::-webkit-search-results-decoration {
+  display: none
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"]{
+  -moz-appearance: textfield;
+}
+img {
+  border: none;
+  vertical-align: top;
+}
+a,a:active,a:hover,a:link,a:visited {
+  text-decoration: none;
+}
+div{
+  box-sizing: border-box;
+}
