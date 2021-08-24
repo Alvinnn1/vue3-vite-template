@@ -9,4 +9,4 @@ const store = createStore({
   plugins: [createPersistedState()]
 })
 
-export default store
+export { store }

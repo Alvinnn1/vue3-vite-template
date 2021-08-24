@@ -1,1 +1,3 @@
-export declare const store: object
+export declare const store: {
+  install: any
+}

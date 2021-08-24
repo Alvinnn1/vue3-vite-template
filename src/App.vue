@@ -3,6 +3,7 @@
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
   <h1>{{ $filters.formatYYYYMMDD(time) }}</h1>
   <h3>{{ $filters.currencyText(value) }}</h3>
+<!--  <div>{{$filters.currencyText()}}</div>-->
   <router-link to="/about">about</router-link>
   <router-link to="/login">login</router-link>
   <router-link to="/home">home</router-link>
